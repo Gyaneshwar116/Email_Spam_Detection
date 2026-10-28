@@ -171,9 +171,7 @@ The notebook imports several classification algorithms:
 - Decision Tree Classifier
 - Random Forest Classifier
 
-These algorithms can be compared to determine which performs best for the dataset.
-
-The selected model should be based on evaluation results rather than accuracy alone.
+These algorithms are compared to determine which performs best for the dataset..
 
 ### 6. Model Evaluation
 
@@ -327,17 +325,3 @@ streamlit
 joblib
 
 ---
-
-## 🔮 Future Improvements
-
-- Compare additional text classification algorithms.
-- Evaluate precision, recall, F1-score, and the confusion matrix for each model.
-- Perform cross-validation to assess generalization.
-- Improve robustness against unseen message patterns.
-- Add model confidence scores when appropriately calibrated.
-- Deploy the application to a public hosting platform.
-- Add automated tests for preprocessing and predictions.
-- Introduce a reproducible training pipeline and model versioning.
-
----
-
